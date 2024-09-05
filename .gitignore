@@ -1,0 +1,58 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Віртуальне середовище
+venv/
+env/
+ENV/
+
+# Файли конфігурації IDE
+.idea/
+.vscode/
+
+# Python байт-коди
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Системні файли Jupyter
+.ipynb_checkpoints/
+
+# Лог файли
+*.log
+
+# Файли даних та кешу
+*.csv
+*.xlsx
+*.json
+*.sqlite
+*.db
+
+# Директорії з результатами тестування
+.coverage
+nosetests.xml
+test_*.xml
+
+# Файли конфігурації Pytest
+.pytest_cache/
+
+# Встановлені бібліотеки
+*.egg
+*.egg-info/
+
+# Операційні системи
+*.swp
+*.swo
+
+# Встановлені бібліотеки
+dist/
+build/
+
+# Секрети та конфігурації
+*.env
+*.config
+
+# Специфічні файли для парсингу
+parsed_data/
